@@ -1,7 +1,8 @@
-# 🎓 Cybersecurity & Digital Forensics – University Portfolio
+# 🎓 Cybersecurity & Digital Forensics University Portfolio
 
-This repository contains my academic projects and coursework completed during my **BSc (Hons) Cybersecurity & Digital Forensics** degree at **Kingston University (Class of 2025)**.  
-Each module demonstrates a different domain of cybersecurity, from encryption and network defense to business innovation and human behaviour in security.
+This repository contains a curated collection of academic projects, reports, and practical coursework completed during my **BSc (Hons) Cybersecurity & Digital Forensics (2:1)** at **Kingston University**.  
+Each module showcases hands-on technical work and written analysis across multiple domains of cybersecurity — from encryption and endpoint defense to digital entrepreneurship and human factors in security.
+
 
 ---
 
@@ -11,155 +12,109 @@ BSc Cybersecurity & Digital Forensics (2:1) – Kingston University
 [LinkedIn](https://www.linkedin.com/in/mohamud-elmi/) • [GitHub](https://github.com/Mohamud-Elmi/)
 
 ---
+## 🧠 Overview of Modules
 
-## 🧠 Year 3 Modules (Final Year)
+### 🖥️ Computing Systems
+Assignments exploring computer architecture, algorithms, operating systems, networking, and parallel programming.  
+Demonstrates a solid foundation in computing theory and system-level design.
 
-### 🔐 Cryptography & Network Security
-**Focus:** Exploring Symmetric and Asymmetric Cryptosystems, Quantum Key Distribution (QKD)
-
-**Deliverables:**
-- **Exploring Symmetric and Asymmetric Cryptosystems** – Compared classical vs. modern algorithms (AES, 3DES, RSA).  
-- **Quantum Key Distribution** – Simulated BB84, Decoy-State, and BBM92 protocols in CrypTool 2, analysing QBER and eavesdropping detection.  
-
-**Concepts Applied:** Encryption theory, public/private key cryptography, post-quantum security, key reconciliation, privacy amplification.
-
-📄 Files:
-- `Exploring Symmetric and Asymmetric Cryptosystems.docx`
-- `Quantum Key Distribution.docx`
+**Key Work:**  
+- Algorithms and computational logic  
+- Computer Architecture and Operating Systems analysis  
+- Network Design and Packet Tracer simulation  
+- Parallel Programming and system efficiency
 
 ---
 
-### 🧩 Threat Hunting, Analysis & Mitigation
-**Focus:** Splunk Log File Analysis and Visualisation
+### 🔐 Cryptography & Network Security
+Research and lab work on modern encryption systems, cryptographic algorithms, and emerging technologies like **Quantum Key Distribution (QKD)**.  
+Covers both theoretical and practical security analysis.
 
-**Deliverables:**
-- Built Splunk dashboards analysing multiple event log datasets (network, authentication, and system logs).  
-- Compared SIEM platforms: Splunk, ELK Stack, and IBM QRadar.  
-- Designed detection visualisations and KPIs for SOC reporting.
+**Key Work:**  
+- Symmetric and Asymmetric Cryptography  
+- Network security and digital signatures  
+- Quantum Cryptography simulations (BB84, BBM92)  
+- Security risk analysis and implementation reporting
 
-**Concepts Applied:** Log correlation, SIEM operation, threat analysis, attack pattern recognition, event normalization.
+---
 
-📄 File:
-- `Splunk Log File Analysis and Visualisations.docx`
+### 🕵️ Threat Hunting, Analysis & Mitigation
+Practical investigation into threat detection and log analysis using **Splunk**, focusing on identifying malicious activity and visualising attack trends.
+
+**Key Work:**  
+- Log analysis and dashboard visualisation  
+- Detection of Indicators of Compromise (IOCs)  
+- Threat mitigation reporting and data-driven insights
 
 ---
 
 ### 💼 Digital Entrepreneurship
-**Focus:** Designing a Secure Digital Business Solution (IV Toolkit)
+Projects combining business strategy with cybersecurity product design.  
+Showcases innovation, collaboration, and technical implementation in a simulated start-up environment.
 
-**Deliverables:**
-- **Solutions & Implementation Report** – Technical design and security framework for the IV Toolkit app.  
-- **Business Plan** – Market analysis, pricing, and sustainability strategy.  
-- **IV Toolkit Brief Report** – Clinical use case analysis for NHS deployment.  
-- **Requirements Analysis Spreadsheet** – Functional/non-functional requirements, user stories, and system specifications.  
-
-**Concepts Applied:** Secure SDLC, risk management, encryption in healthcare, startup planning, system analysis, and compliance (GDPR/NHS DSP Toolkit).
-
-📄 Files:
-- `Solutions and Implementation Report.docx`
-- `Business Plan.docx`
-- `IV Toolkit Brief Report.docx`
-- `Requirements Analysis Spreadsheet.xlsx`
+**Key Work:**  
+- Solutions & Implementation Report  
+- IV Toolkit Project and Requirements Analysis  
+- Business Plan and Pitch Deck for a cybersecurity solution
 
 ---
 
-### 🧠 Final Year Project (FYP)
-**Focus:** Investigating Cyber Psychology in the Context of User Behaviour and Email-Based Malware
+### 🧑‍💻 Ethical Hacking
+Hands-on analysis of vulnerabilities and real-world attack surfaces.  
+Includes system forensics, Android application testing, and event log analysis.
 
-**Deliverables:**
-- **Project Proposal** – Defined objectives, scope, and literature review on cyber-psychology and phishing.  
-- **FYP Dissertation** – Analysed how cognitive bias, emotional triggers, and technical knowledge affect phishing susceptibility.  
-- **Project Presentation** – Delivered key findings, methodology, and countermeasure recommendations.
-
-**Concepts Applied:** Cyber psychology, human error in security, phishing behaviour, social engineering, ethical research practices.
-
-📄 Files:
-- `Project Proposal.pdf`
-- `Investigating Cyber Psychology in the Context of User Behaviour and Email-Based Malware.docx`
-- `Project Presentation.pptx`
-
----
-
-## 💻 Year 2 Modules
-
-### ⚙️ Computing Systems
-**Focus:** System-level programming, networking, and performance optimisation
-
-**Deliverables:**
-- **Algorithms** – Implemented Levenshtein distance and analysed complexity (O(3ⁿ) → O(n)).  
-- **Computer Architecture** – Studied MIPS pipeline hazards and instruction-level parallelism.  
-- **Operating Systems Answer Sheet** – Process scheduling and memory management analysis.  
-- **Networking Design Assignment** – Designed IP addressing and routing protocols (RIPv2, OSPF, EIGRP) in Packet Tracer.  
-- **Parallel Programming** – Implemented multithreading and synchronization models in C#.  
-
-**Concepts Applied:** System performance optimisation, networking fundamentals, parallelism, CPU architecture, OS process control.
-
-📄 Files:
-- `Algorithms.docx`
-- `Computer Architecture.docx`
-- `Operating Systems Answer Sheet.pdf`
-- `Networking Design Assignment.docx`
-- `Networking Design Assignment.pkt`
-- `Parallel Programming.docx`
-
----
-
-### 🕵️ Ethical Hacking
-**Focus:** Offensive testing and security analysis
-
-**Deliverables:**
-- **Analysis of an Android App** – Reverse-engineered and modified an APK to identify insecure components.  
-- **Event Log Analysis.py** – Custom Python script analysing Windows event logs and exporting results.  
-
-**Concepts Applied:** Mobile app forensics, reverse engineering, static analysis, ethical hacking methodology, and Python-based threat analysis.
-
-📄 Files:
-- `Analysis of an Android App.docx`
-- `Event Log Analysis.py`
+**Key Work:**  
+- Android app analysis  
+- Event log investigation using Python  
+- Exploitation and mitigation practices
 
 ---
 
 ### 🌐 Networking Concepts
-**Focus:** Network design, addressing, and routing
+Practical labs focused on IP addressing, subnetting, and routing protocols in simulated enterprise environments.
 
-**Deliverables:**
-- **IP Address Scheme Design and Static Routing** – Designed and tested IPv4 addressing across multiple LANs.  
-- **Network Routing Protocols in a Small Corporate Internetwork** – Configured dynamic routing (RIPv2, OSPF) for enterprise topology.  
+**Key Work:**  
+- Static routing and IP design  
+- OSPF/EIGRP configuration and troubleshooting  
+- Network protocol behaviour analysis
 
-**Concepts Applied:** Subnetting, static/dynamic routing, topology design, network troubleshooting, Cisco CLI commands.
+---
 
-📄 Files:
-- `IP Address Scheme Design and Static Routing.docx`
-- `Network Routing Protocols in a Small Corporate Internetwork.docx`
+### 🧩 Final Year Project
+Independent research project titled:  
+**“Investigating Cyber Psychology in the Context of User Behaviour and Email-Based Malware.”**  
+Explored how cognitive biases and human error contribute to phishing success rates and malware spread.
+
+**Key Work:**  
+- Project proposal and research paper  
+- Experiment design and data analysis  
+- Viva presentation and defence
 
 ---
 
 ### 🧾 Professional Environments
-**Focus:** Secure Web Server Design and Deployment
+Essays and reports examining the ethical, legal, and social dimensions of cybersecurity and technology.  
+Demonstrates communication skills, ethical awareness, and understanding of technology’s broader impact.
 
-**Deliverables:**
-- Designed a **Secure Web Server Architecture** with layered controls (firewall, SSL, secure coding).  
-- Evaluated performance and compliance under NCSC and OWASP recommendations.  
-
-**Concepts Applied:** Secure web architecture, vulnerability management, risk analysis, OWASP Top 10, HTTPS/SSL configuration.
-
-📄 File:
-- `Secure Web Server Design Report.docx`
+**Key Work:**  
+- *Does Patenting Promote or Hinder Human Progress?*  
+- *Exploring the Impacts of Facial Recognition on Society*  
+- *The Impact of Smartphones and Social Media on People Today*  
+- Secure Web Server Design Report
 
 ---
 
-## 🧰 Tools & Technologies
-Cisco Packet Tracer • Splunk • CrypTool 2 • Python • MARS MIPS • MOBSF • Wireshark • VirtualBox • Excel • GitHub
+## 🧩 Skills Demonstrated
+
+- **Cybersecurity & Blue Team Operations:** Threat detection, compliance, endpoint protection  
+- **Programming & Analysis:** Python scripting, log parsing, data visualisation  
+- **Cryptography & Network Security:** Algorithm implementation, encryption, and secure transmission  
+- **Entrepreneurship & Strategy:** Business modelling, digital product planning, solution design  
+- **Research & Reporting:** Technical writing, security analysis, professional documentation
 
 ---
 
-## 🧠 Concepts & Skills Demonstrated
-- Cryptography & Quantum Communication  
-- SIEM Configuration & Threat Hunting  
-- Secure Software Development Lifecycle  
-- Human Factors & Cyber Psychology  
-- Ethical Hacking & Reverse Engineering  
-- Operating System & Network Fundamentals  
-- Business Strategy & Project Management  
-- Risk & Compliance (GDPR, OWASP, NCSC)
+## 🎯 Purpose
 
+This repository serves as a public academic portfolio demonstrating my technical, analytical, and professional development throughout my cybersecurity degree.  
+It reflects both practical competency and research-based understanding across multiple areas of information security.
